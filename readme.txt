@@ -1,3 +1,6 @@
+# Cardiac-SPECT-Images-Unet-Segmentation-Various-Architectures
+Public
+
 1- you need to extract all SPECT file images using the SPECT_Heart_ROI_Segmenter_V5_Final
 just upload the 'SGATE_G_1001_DS (original).dcm' file and press 'c' letters until finishing
 all slices so you will get all slices of this file
@@ -17,3 +20,4 @@ according to your paths.
 FINISH
 Now the dicom file is ready with name 'SGATE_G_1001_DS_N.dcm'
 don't forget to upload the Unet model to the same folder path
+
