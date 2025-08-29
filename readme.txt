@@ -1,6 +1,13 @@
-# Cardiac-SPECT-Images-Unet-Segmentation-Various-Architectures
-Public
+### Cardiac-SPECT-Images-Unet-Segmentation-Various-Architectures
+# This repository contains:
+1- Training codes for all U-Net model for the first dataset (Spect_UNet_Segmentation_5Models_Ensemble_First_Dataset_With_Statistics.ipynb)
+2- Training codes for all U-Net model for the second dataset (Spect_UNet_Segmentation_5Models_Ensemble_Second_Dataset_With_Statistics (1).ipynb)
+3- One of our trained models: Unet-VGGATT_Ahmad.pt
+4- The codes required to create the DICOM file using the trained model and input source
+5- Example of the source and output of our implemetnation in a .zip format.
 
+
+### Now for producing the segmented DICOM file using our trained models, you need to follow the following instructions:
 1- you need to extract all SPECT file images using the SPECT_Heart_ROI_Segmenter_V5_Final
 just upload the 'SGATE_G_1001_DS (original).dcm' file and press 'c' letters until finishing
 all slices so you will get all slices of this file
@@ -20,4 +27,5 @@ according to your paths.
 FINISH
 Now the dicom file is ready with name 'SGATE_G_1001_DS_N.dcm'
 don't forget to upload the Unet model to the same folder path
+
 
