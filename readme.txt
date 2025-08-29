@@ -5,7 +5,8 @@
 3- One of our trained models: Unet-VGGATT_Ahmad.pt
 4- The codes required to create the DICOM file using the trained model and input source
 5- Example of the source and output of our implemetnation in a .zip format.
-
+6- Examples of our output DICOM files produced by different models (SPECT FINAL IMAGES 5 by 5 filter all models.rar)
+7- Dataset (contains two subfolders one for images and another one for masks)
 
 ### Now for producing the segmented DICOM file using our trained models, you need to follow the following instructions:
 1- you need to extract all SPECT file images using the SPECT_Heart_ROI_Segmenter_V5_Final
@@ -27,5 +28,6 @@ according to your paths.
 FINISH
 Now the dicom file is ready with name 'SGATE_G_1001_DS_N.dcm'
 don't forget to upload the Unet model to the same folder path
+
 
 
